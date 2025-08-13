@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes timer {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+
+  .animate-timer {
+    animation: timer 2s linear forwards;
+  }
+}
